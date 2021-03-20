@@ -4,10 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: data/settings.json
-  label: Menu
-  match: "**/*"
 - type: heading
   label: Content
 - type: directory
@@ -19,6 +15,9 @@ sections:
   - documentation-page
 - type: heading
   label: Settings
+- type: document
+  path: data/settings.json
+  label: Menu
 upload_dir: static
 public_path: ''
 front_matter_path: ''
