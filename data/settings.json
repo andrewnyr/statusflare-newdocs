@@ -1,0 +1,28 @@
+{
+  "sidebar": [
+    {
+      "section": "Introduction",
+      "topics": [
+
+      ]
+    },
+    {
+      "section": "Getting Started",
+      "topics": [
+        {
+          "title": "Getting Started",
+          "slug": "getting-started"
+        }
+      ]
+    },
+    {
+      "section": "Support",
+      "topics": [
+        {
+          "title": "Contact Information",
+          "slug": "Contact-Information"
+        }
+      ]
+    }
+  ]
+}
