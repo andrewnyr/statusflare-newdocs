@@ -1,4 +1,24 @@
 ---
 label: Documentation Page
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: MM/DD/YYYY
+    time_format: 
+    display_utc: false
+    export_format: YYYY-MM-DD
+- name: slug
+  type: text
+  config:
+    required: false
+  label: slug
